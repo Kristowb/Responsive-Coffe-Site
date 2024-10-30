@@ -52,6 +52,7 @@ header{
 
 
 .navlist a:hover{
+    transform: translateY(-5px);
     color: var(--main-color);
 }
 
@@ -156,6 +157,11 @@ section{
     font-size: 28px;
     font-weight: bold;
     color: var(--text-color);
+    transition: all .6s ease;
+}
+
+.price:hover{
+    transform: scale(1.1);
 }
 
 .price span{
